@@ -1,0 +1,33 @@
+# VS Code (já tem)
+.vscode
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Dados
+data/*
+!data/.gitkeep
+
+
+# Modelos treinados
+*.pkl
+*.joblib
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente
+.env
